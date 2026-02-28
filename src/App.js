@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { FaSun, FaMoon, FaMusic, FaPause } from 'react-icons/fa';
+import React, { useState, useEffect } from 'react';
+import { FaSun, FaMoon } from 'react-icons/fa';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -13,8 +13,6 @@ import './styles/LightTheme.css';
 function App() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [theme, setTheme] = useState('dark');
-  const [isMusicPlaying, setIsMusicPlaying] = useState(false);
-  const audioRef = useRef(null);
 
   useEffect(() => {
     const handleMouseMove = (e) => {
@@ -28,36 +26,6 @@ function App() {
     setTheme(theme === 'dark' ? 'light' : 'dark');
   };
 
-  const toggleMusic = () => {
-    if (!audioRef.current) {
-      const audio = new Audio('https://cdn.pixabay.com/download/audio/2022/03/15/audio_c8f6e35f6d.mp3?filename=forest-lullaby-110624.mp3');
-      audio.loop = true;
-      audio.volume = 0.35;
-      audioRef.current = audio;
-    }
-
-    if (isMusicPlaying) {
-      audioRef.current.pause();
-      setIsMusicPlaying(false);
-      return;
-    }
-
-    audioRef.current.play().then(() => {
-      setIsMusicPlaying(true);
-    }).catch(() => {
-      setIsMusicPlaying(false);
-    });
-  };
-
-  useEffect(() => {
-    return () => {
-      if (audioRef.current) {
-        audioRef.current.pause();
-        audioRef.current = null;
-      }
-    };
-  }, []);
-
   return (
     <div className={`app ${theme}`}>
       <div
@@ -66,9 +34,6 @@ function App() {
       />
       <button className="theme-toggle" onClick={toggleTheme} aria-label="Toggle theme">
         {theme === 'dark' ? <FaSun /> : <FaMoon />}
-      </button>
-      <button className="music-toggle" onClick={toggleMusic} aria-label="Toggle calm music">
-        {isMusicPlaying ? <FaPause /> : <FaMusic />}
       </button>
       <Navbar theme={theme} />
       <div id="hero"><Hero theme={theme} /></div>

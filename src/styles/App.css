@@ -53,9 +53,9 @@ body {
   color: #0a0a0a;
 }
 
-.theme-toggle,
-.music-toggle {
+.theme-toggle {
   position: fixed;
+  top: 100px;
   right: 2rem;
   z-index: 1001;
   width: 55px;
@@ -74,37 +74,22 @@ body {
   justify-content: center;
 }
 
-.theme-toggle {
-  top: 100px;
-}
-
-.music-toggle {
-  top: 170px;
-}
-
-.theme-toggle:hover,
-.music-toggle:hover {
-  transform: scale(1.15);
+.theme-toggle:hover {
+  transform: scale(1.15) rotate(180deg);
   box-shadow: 0 10px 30px rgba(0, 245, 160, 0.6);
   border-color: #00f5a0;
   background: linear-gradient(135deg, #00f5a0, #00d9f5);
   color: #0a0a0a;
 }
 
-.theme-toggle:hover {
-  transform: scale(1.15) rotate(180deg);
-}
-
-.app.light .theme-toggle,
-.app.light .music-toggle {
+.app.light .theme-toggle {
   background: rgba(255, 255, 255, 0.9);
   color: #667eea;
   border-color: rgba(102, 126, 234, 0.3);
   box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);
 }
 
-.app.light .theme-toggle:hover,
-.app.light .music-toggle:hover {
+.app.light .theme-toggle:hover {
   background: linear-gradient(135deg, #667eea, #764ba2);
   color: #fff;
   border-color: #667eea;
