@@ -44,7 +44,7 @@ const About = ({ profileImage }) => {
                 I continuously push myself to learn new technologies, improve performance, and write efficient code. My goal is to grow into a skilled developer who builds impactful digital experiences.
               </p>
               <div className="resume-download">
-                <a href="/vijayasri resume.pdf" download className="btn-resume">
+                <a href="/VijayaSri%20Resume.pdf" download="VijayaSri-Resume.pdf" className="btn-resume">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
                     <polyline points="7 10 12 15 17 10"/>

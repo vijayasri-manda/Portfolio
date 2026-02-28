@@ -8,7 +8,8 @@ const Projects = () => {
       tech: 'React, Node.js, Express, MongoDB', 
       color: '#10b981',
       description: 'A powerful full-stack MERN application revolutionizing online grocery shopping with seamless ordering, real-time inventory management, and personalized user experiences.',
-      link: 'https://github.com/vijayasri-manda/FreshCartExpress'
+      link: 'https://github.com/vijayasri-manda/FreshCartExpress',
+      demo: 'https://drive.google.com/file/d/1KjHwY1T5b4LXJ2ln9w9qjbSLUfk1_3Yq/view'
     },
     { 
       title: 'Digital Literacy Platform', 
@@ -31,21 +32,24 @@ const Projects = () => {
       tech: 'MERN, Razorpay, ImageKit', 
       color: '#f59e0b',
       description: 'A feature-rich hotel booking platform inspired by Airbnb, enabling users to discover, book, and list properties with integrated payment processing and cloud-based image management.',
-      link: 'https://github.com/vijayasri-manda/Homely-Hub'
+      link: 'https://github.com/vijayasri-manda/Homely-Hub',
+      demo: 'https://www.youtube.com/watch?v=ixXSwBKKH_o'
     },
     { 
       title: 'Smart Study Planner', 
       tech: 'HTML, CSS, JavaScript', 
       color: '#8b5cf6',
       description: 'An intelligent productivity tool that transforms learning into achievable milestones by creating personalized study schedules, breaking down complex goals, and providing real-time progress tracking for students and professionals.',
-      link: 'https://github.com/vijayasri-manda/Smart-Study-Planner'
+      link: 'https://github.com/vijayasri-manda/Smart-Study-Planner',
+      demo: 'https://vijayasri-manda.github.io/Smart-Study-Planner/'
     },
     { 
       title: 'Data Science Projects', 
       tech: 'Python, Pandas, Scikit-learn, NLP', 
       color: '#14b8a6',
       description: 'A comprehensive collection of data science projects including car price prediction models, exploratory data analysis, web scraping automation, natural language processing, and statistical modeling demonstrating end-to-end ML workflows.',
-      link: 'https://github.com/vijayasri-manda/Data-Science'
+      link: 'https://github.com/vijayasri-manda/Data-Science',
+      demo: 'https://www.linkedin.com/posts/vijaya-sri-manda-399a56343_intership-certificate-activity-7347527788037369856-NnG1?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFYeZ6UBzENvMensEzeQbxBsnLAxtwqyMwg'
     }
   ];
 
