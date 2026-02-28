@@ -121,6 +121,5 @@ Perfect for showcasing modern frontend development skills.
 - Email: vijayasrimanda025@gmail.com 
 
 ---
----
 
 © 2026 Vijaya Sri Manda | Built with React & Creativity
