@@ -1,0 +1,340 @@
+/* Light Theme Overrides */
+.app.light {
+  background: #F8FAFC;
+}
+
+.app.light::before {
+  background: radial-gradient(circle at 20% 50%, rgba(123, 47, 247, 0.08) 0%, transparent 50%),
+              radial-gradient(circle at 80% 80%, rgba(157, 78, 221, 0.08) 0%, transparent 50%);
+}
+
+.app.light .cursor-glow {
+  background: radial-gradient(circle, rgba(123, 47, 247, 0.12) 0%, rgba(157, 78, 221, 0.08) 50%, transparent 70%);
+  mix-blend-mode: multiply;
+}
+
+.app.light .section-title {
+  background: linear-gradient(135deg, #7B2FF7 0%, #9D4EDD 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.app.light .section-title::after {
+  background: linear-gradient(90deg, transparent, #7B2FF7, #9D4EDD, transparent);
+  box-shadow: 0 0 10px rgba(123, 47, 247, 0.3);
+}
+
+.app.light .emoji-fix {
+  color: #7b2ff7;
+  background: radial-gradient(circle at 30% 30%, rgba(123, 47, 247, 0.22), rgba(157, 78, 221, 0.12) 70%);
+  border-color: rgba(123, 47, 247, 0.35);
+  box-shadow: 0 8px 22px rgba(123, 47, 247, 0.22);
+}
+
+.app.light .theme-toggle {
+  background: rgba(255, 255, 255, 0.95);
+  color: #7B2FF7;
+  border-color: #7B2FF7;
+  box-shadow: 0 4px 15px rgba(123, 47, 247, 0.2);
+}
+
+.app.light .theme-toggle:hover {
+  box-shadow: 0 6px 25px rgba(123, 47, 247, 0.4);
+}
+
+/* Hero Section */
+.app.light .hero {
+  background: linear-gradient(135deg, #F8FAFC 0%, #FFFFFF 50%, #F8FAFC 100%);
+}
+
+.app.light .hero::before {
+  background: radial-gradient(circle, rgba(123, 47, 247, 0.08) 0%, transparent 70%);
+}
+
+.app.light .hero::after {
+  background: 
+    linear-gradient(45deg, transparent 30%, rgba(123, 47, 247, 0.03) 50%, transparent 70%),
+    linear-gradient(-45deg, transparent 30%, rgba(157, 78, 221, 0.03) 50%, transparent 70%);
+}
+
+.app.light .hero-name,
+.app.light .name-highlight {
+  color: #1E293B;
+}
+
+.app.light .greeting {
+  background: linear-gradient(135deg, #7B2FF7, #9D4EDD, #7B2FF7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.app.light .typing-text {
+  color: #7B2FF7;
+  border-right-color: #7B2FF7;
+}
+
+.app.light .btn-primary {
+  background: linear-gradient(135deg, #7B2FF7, #9D4EDD);
+  color: #FFFFFF;
+  box-shadow: 0 0 20px rgba(123, 47, 247, 0.3);
+}
+
+.app.light .btn-primary:hover {
+  box-shadow: 0 15px 40px rgba(123, 47, 247, 0.4);
+}
+
+.app.light .btn-secondary {
+  color: #7B2FF7;
+  border-color: #7B2FF7;
+}
+
+.app.light .btn-secondary:hover {
+  background: linear-gradient(135deg, #7B2FF7, #9D4EDD);
+  color: #FFFFFF;
+  box-shadow: 0 15px 40px rgba(123, 47, 247, 0.4);
+}
+
+.app.light .shape-1 {
+  background: radial-gradient(circle, rgba(123, 47, 247, 0.15), transparent);
+}
+
+.app.light .shape-2 {
+  background: radial-gradient(circle, rgba(157, 78, 221, 0.15), transparent);
+}
+
+.app.light .shape-3 {
+  background: radial-gradient(circle, rgba(123, 47, 247, 0.1), transparent);
+}
+
+.app.light .particle {
+  background: #7B2FF7;
+  box-shadow: 0 0 10px #7B2FF7, 0 0 20px #7B2FF7, 0 0 30px #9D4EDD;
+}
+
+.app.light .grid-overlay {
+  background-image: 
+    linear-gradient(rgba(123, 47, 247, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(123, 47, 247, 0.05) 1px, transparent 1px);
+}
+
+/* About Section */
+.app.light .about {
+  background: #F8FAFC;
+}
+
+.app.light .about::before {
+  background: linear-gradient(90deg, transparent, #7B2FF7, transparent);
+}
+
+.app.light .tagline code {
+  color: #5b21b6;
+  background: linear-gradient(135deg, rgba(123, 47, 247, 0.16), rgba(157, 78, 221, 0.12));
+  border-color: rgba(123, 47, 247, 0.35);
+  box-shadow: 0 10px 28px rgba(123, 47, 247, 0.2);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.app.light .card-inner {
+  background: #FFFFFF;
+  border-color: #E2E8F0;
+  box-shadow: 0 20px 60px rgba(123, 47, 247, 0.1);
+}
+
+.app.light .card-inner p {
+  color: #475569;
+}
+
+.app.light .intro {
+  color: #1E293B !important;
+}
+
+.app.light .highlight {
+  color: #7B2FF7;
+}
+
+.app.light .interests h3 {
+  color: #7B2FF7;
+}
+
+.app.light .interest-item {
+  background: rgba(123, 47, 247, 0.05);
+  border-color: #E2E8F0;
+  color: #1E293B;
+}
+
+.app.light .interest-item span {
+  color: #1E293B;
+}
+
+.app.light .interest-item:hover {
+  background: rgba(123, 47, 247, 0.1);
+  border-color: rgba(123, 47, 247, 0.3);
+  transform: translateX(10px) scale(1.02);
+}
+
+.app.light .closing {
+  color: #7B2FF7 !important;
+}
+
+.app.light .about-image {
+  border-color: #7B2FF7;
+  box-shadow: 0 0 40px rgba(123, 47, 247, 0.2);
+}
+
+.app.light .about-image:hover {
+  box-shadow: 0 0 60px rgba(123, 47, 247, 0.3);
+}
+
+/* Projects Section */
+.app.light .projects {
+  background: linear-gradient(180deg, #F8FAFC 0%, #FFFFFF 100%);
+}
+
+.app.light .project-card {
+  background: #FFFFFF;
+  border-color: #E2E8F0;
+}
+
+.app.light .project-card:hover {
+  box-shadow: 0 20px 60px rgba(123, 47, 247, 0.15);
+  border-color: rgba(123, 47, 247, 0.3);
+  transform: translateY(-10px) scale(1.03);
+}
+
+.app.light .project-card h3 {
+  color: #1E293B;
+  background: linear-gradient(135deg, #1E293B 0%, #7B2FF7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.app.light .tech-stack {
+  color: #64748B;
+}
+
+.app.light .project-desc {
+  color: #475569;
+}
+
+.app.light .project-link {
+  border-color: var(--accent-color);
+  background: rgba(248, 250, 252, 0.5);
+}
+
+/* Skills Section */
+.app.light .skills {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8FAFC 100%);
+}
+
+.app.light .skills::before {
+  background: linear-gradient(90deg, transparent, #7B2FF7, transparent);
+}
+
+.app.light .skill-category {
+  background: #FFFFFF;
+  border-color: #E2E8F0;
+}
+
+.app.light .skill-category:hover {
+  border-color: rgba(123, 47, 247, 0.3);
+  box-shadow: 0 10px 40px rgba(123, 47, 247, 0.15);
+}
+
+.app.light .category-title {
+  color: #7B2FF7;
+}
+
+.app.light .category-title::after {
+  background: linear-gradient(90deg, #7B2FF7, #9D4EDD);
+}
+
+.app.light .skill-tag {
+  background: rgba(123, 47, 247, 0.08);
+  color: #1E293B;
+  border-color: #E2E8F0;
+}
+
+.app.light .skill-tag:hover {
+  background: rgba(123, 47, 247, 0.15);
+  border-color: #7B2FF7;
+  color: #7B2FF7;
+  box-shadow: 0 5px 15px rgba(123, 47, 247, 0.2);
+}
+
+/* Contact Section */
+.app.light .contact {
+  background: linear-gradient(180deg, #F8FAFC 0%, #FFFFFF 100%);
+}
+
+.app.light .form-group input,
+.app.light .form-group textarea {
+  background: #FFFFFF;
+  border-color: #E2E8F0;
+  color: #1E293B;
+}
+
+.app.light .form-group input:focus,
+.app.light .form-group textarea:focus {
+  border-color: #7B2FF7;
+  box-shadow: 0 0 20px rgba(123, 47, 247, 0.15);
+}
+
+.app.light .form-group input::placeholder,
+.app.light .form-group textarea::placeholder {
+  color: #94A3B8;
+}
+
+.app.light .btn-submit {
+  background: linear-gradient(135deg, #7B2FF7 0%, #9D4EDD 100%);
+  color: #FFFFFF;
+  border-color: rgba(123, 47, 247, 0.25);
+  box-shadow: 0 10px 28px rgba(123, 47, 247, 0.24);
+}
+
+.app.light .btn-submit:hover {
+  box-shadow: 0 16px 38px rgba(123, 47, 247, 0.3);
+}
+
+.app.light .social-link {
+  color: #7B2FF7;
+  border-color: #E2E8F0;
+  background: rgba(255, 255, 255, 0.75);
+}
+
+.app.light .social-link:hover {
+  border-color: #7B2FF7;
+  color: #7B2FF7;
+  box-shadow: 0 10px 30px rgba(123, 47, 247, 0.2);
+}
+
+/* Navbar */
+.app.light .navbar.scrolled {
+  background: rgba(255, 255, 255, 0.95);
+  border-bottom-color: #E2E8F0;
+  backdrop-filter: blur(10px);
+}
+
+.app.light .logo {
+  background: linear-gradient(135deg, #7B2FF7 0%, #9D4EDD 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.app.light .nav-menu li {
+  color: #1E293B;
+}
+
+.app.light .nav-menu li:hover {
+  color: #FFFFFF;
+}
+
+.app.light .nav-menu li::before {
+  background: linear-gradient(135deg, #7B2FF7, #9D4EDD);
+}
+
+.app.light .nav-menu li::after {
+  background: linear-gradient(90deg, #7B2FF7, #9D4EDD);
+  box-shadow: 0 0 10px rgba(123, 47, 247, 0.5);
+}
